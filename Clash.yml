@@ -19,6 +19,10 @@ proxies:
   - {name: bad.jiushinali4.workers.dev, server: 172.67.173.171, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
   - {name: goggo.limaolimaolimaomao.workers.dev, server: 162.159.135.83, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
   - {name: some1.shufulayikuaifale.workers.dev, server: 172.67.205.176, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
+  - {name: test.ltang4981.workers.dev1, server: 172.67.130.184, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
+  - {name: bad.jiushinali4.workers.dev1, server: 172.67.130.184, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
+  - {name: goggo.limaolimaolimaomao.workers.dev1, server: 172.67.72.209, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
+  - {name: some1.shufulayikuaifale.workers.dev1, server: 172.64.160.137, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -32,6 +36,10 @@ proxy-groups:
       - bad.jiushinali4.workers.dev
       - goggo.limaolimaolimaomao.workers.dev
       - some1.shufulayikuaifale.workers.dev
+      - test.ltang4981.workers.dev1
+      - bad.jiushinali4.workers.dev1
+      - goggo.limaolimaolimaomao.workers.dev1
+      - some1.shufulayikuaifale.workers.dev1
   - name: 🎯 全球直连
     type: select
     proxies:
