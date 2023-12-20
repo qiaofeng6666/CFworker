@@ -26,7 +26,16 @@ proxies:
   - {name: 联通-美国9, server: 172.67.130.184, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
   - {name: 移动-美国10, server: 172.67.67.114, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
   - {name: 电信-美国11, server: 172.67.79.139, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
-
+  - {name: examonline1, server: examonline.in, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
+  - {name: examonline2, server: examonline.in, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
+  - {name: examonline3, server: examonline.in, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
+  - {name: examonline4, server: examonline.in, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
+  - {name: examonline5, server: examonline.in, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: a.shkqh0be.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.shkqh0be.workers.dev}}}
+  - {name: okgg6, server: okgg.top, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
+  - {name: okgg7, server: okgg.top, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
+  - {name: okgg8, server: okgg.top, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
+  - {name: okgg9, server: okgg.top, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
+  - {name: okgg10, server: okgg.top, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: a.shkqh0be.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.shkqh0be.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -47,6 +56,16 @@ proxy-groups:
       - 联通-美国9
       - 移动-美国10
       - 电信-美国11
+      - examonline1
+      - examonline2
+      - examonline3
+      - examonline4
+      - examonline5
+      - okgg6
+      - okgg7
+      - okgg8
+      - okgg9
+      - okgg10
   - name: 🎯 全球直连
     type: select
     proxies:
