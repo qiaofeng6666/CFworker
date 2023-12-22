@@ -15,15 +15,15 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 1-电信, server: 172.64.192.184, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
-  - {name: 2-移动, server: 162.159.153.59, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
-  - {name: 3-移动, server: 172.67.174.174, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
-  - {name: 4-电信, server: 162.159.152.153, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
-  - {name: 5-移动, server: 172.67.64.90, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
-  - {name: 6-电信, server: 162.159.160.34, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
-  - {name: 7-联通, server: 162.159.136.11, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
-  - {name: 8-联通, server: 172.67.122.149, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
-  - {name: 9-电信, server: 104.18.107.19, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: a.shkqh0be.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.shkqh0be.workers.dev}}}
+  - {"name":"defaultName_1","type":"vless","server":"172.67.195.171","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"test.ltang4981.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"test.ltang4981.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"defaultName_2","type":"vless","server":"172.64.172.7","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"bad.jiushinali4.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"bad.jiushinali4.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"defaultName_3","type":"vless","server":"172.64.192.184","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"goggo.limaolimaolimaomao.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"goggo.limaolimaolimaomao.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"defaultName_4","type":"vless","server":"172.67.73.114","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"some1.shufulayikuaifale.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"some1.shufulayikuaifale.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"defaultName_5","type":"vless","server":"172.67.73.114","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hello.96xckkzx.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hello.96xckkzx.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"defaultName_6","type":"vless","server":"172.64.136.245","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.9bn6j-2d.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.9bn6j-2d.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"defaultName_7","type":"vless","server":"172.67.166.133","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"b.8moms7of.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b.8moms7of.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"defaultName_8","type":"vless","server":"104.17.32.229","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"c.lkzb-0t0.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"c.lkzb-0t0.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"defaultName_9","type":"vless","server":"172.67.125.155","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"c.a.shkqh0be.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"c.a.shkqh0be.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,15 +33,15 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 1-电信
-      - 2-移动
-      - 3-移动
-      - 4-电信
-      - 5-移动
-      - 6-电信
-      - 7-联通
-      - 8-联通
-      - 9-电信
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
   - name: 🎯 全球直连
     type: select
     proxies:
