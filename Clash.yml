@@ -15,16 +15,16 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 1-联通, server: 172.64.172.251, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
+  - {name: 1-电信, server: 172.64.192.184, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
   - {name: 2-移动, server: 162.159.153.59, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
   - {name: 3-移动, server: 172.67.174.174, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
   - {name: 4-电信, server: 162.159.152.153, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: randomized, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
-  - {name: 5-联通, server: 172.67.178.33, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
-  - {name: 6-联通, server: 172.67.131.245, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
-  - {name: 7-电信, server: 172.64.133.180, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
-  - {name: 8-移动, server: 172.67.245.204, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
+  - {name: 5-移动, server: 172.67.64.90, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
+  - {name: 6-电信, server: 162.159.160.34, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
+  - {name: 7-联通, server: 162.159.136.11, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
+  - {name: 8-联通, server: 172.67.122.149, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
   - {name: 9-电信, server: 104.18.107.19, port: 80, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, client-fingerprint: chrome, tfo: false, servername: a.shkqh0be.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.shkqh0be.workers.dev}}}
-  proxy-groups:
+proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
@@ -33,14 +33,14 @@ proxies:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 1-联通
+      - 1-电信
       - 2-移动
       - 3-移动
       - 4-电信
-      - 5-联通
-      - 6-联通
-      - 7-电信
-      - 8-移动
+      - 5-移动
+      - 6-电信
+      - 7-联通
+      - 8-联通
       - 9-电信
   - name: 🎯 全球直连
     type: select
