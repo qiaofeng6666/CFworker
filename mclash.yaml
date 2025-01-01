@@ -16,99 +16,59 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 节点1, server: 162.159.251.100, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.shkqh0be.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.shkqh0be.workers.dev}}}
-  - {name: 节点2, server: 172.64.108.1, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
+  - {name: 节点2, server: 104.16.247.188, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
   - {name: 节点3, server: 104.19.29.236, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
   - {name: 节点4, server: 104.16.161.160, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
   - {name: 节点5, server: 172.64.109.147, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
   - {name: 节点6, server: 172.67.192.38, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.shkqh0be.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.shkqh0be.workers.dev}}}
   - {name: 节点7, server: 162.159.136.193, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
-  - {name: 节点8, server: 172.64.108.1, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
+  - {name: 节点8, server: 104.18.225.143, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
   - {name: 节点9, server: 104.19.29.236, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
   - {name: 节点10, server: 104.16.75.185, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
   - {name: 节点11, server: 104.18.168.229, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
   - {name: 节点12, server: 104.17.108.97, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
-  - {name: 节点1-1, server: 104.19.46.232, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
-  - {name: 节点1-2, server: 104.19.46.232, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
-  - {name: 节点1-3, server: 104.19.46.232, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
-  - {name: 节点1-4, server: 104.19.46.232, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
-  - {name: 节点1-5, server: 104.19.46.232, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
-  - {name: 节点1-6, server: 104.19.46.232, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
-  - {name: 节点1-7, server: 104.19.46.232, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
-  - {name: 节点1-8, server: 104.19.46.232, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
-  - {name: 节点2-1, server: 172.64.128.21, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
-  - {name: 节点2-2, server: 172.64.128.21, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
-  - {name: 节点2-3, server: 172.64.128.21, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
-  - {name: 节点2-4, server: 172.64.128.21, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
-  - {name: 节点2-5, server: 172.64.128.21, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
-  - {name: 节点2-6, server: 172.64.128.21, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
-  - {name: 节点2-7, server: 172.64.128.21, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
-  - {name: 节点2-8, server: 172.64.128.21, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
-  - {name: 节点3-1, server: 104.19.62.153, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
-  - {name: 节点3-2, server: 104.19.62.153, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
-  - {name: 节点3-3, server: 104.19.62.153, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
-  - {name: 节点3-4, server: 104.19.62.153, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
-  - {name: 节点3-5, server: 104.19.62.153, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
-  - {name: 节点3-6, server: 104.19.62.153, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
-  - {name: 节点3-7, server: 104.19.62.153, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
-  - {name: 节点3-8, server: 104.19.62.153, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
-  - {name: 节点4-1, server: 172.64.80.115, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
-  - {name: 节点4-2, server: 172.64.80.115, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
-  - {name: 节点4-3, server: 172.64.80.115, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
-  - {name: 节点4-4, server: 172.64.80.115, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
-  - {name: 节点4-5, server: 172.64.80.115, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
-  - {name: 节点4-6, server: 172.64.80.115, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
-  - {name: 节点4-7, server: 172.64.80.115, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
-  - {name: 节点4-8, server: 172.64.80.115, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
-
+  - {name: 节点1-1, server: 104.16.12.189, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
+  - {name: 节点1-2, server: 104.16.12.189, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
+  - {name: 节点1-3, server: 104.16.12.189, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
+  - {name: 节点1-4, server: 104.16.12.189, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
+  - {name: 节点1-5, server: 104.16.12.189, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
+  - {name: 节点1-6, server: 104.16.12.189, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
+  - {name: 节点1-7, server: 104.16.12.189, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
+  - {name: 节点1-8, server: 104.16.12.189, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
+  - {name: 节点1-9, server: 104.16.12.189, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.shkqh0be.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.shkqh0be.workers.dev}}}
+  - {name: 节点2-1, server: 172.64.99.185, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
+  - {name: 节点2-2, server: 172.64.99.185, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
+  - {name: 节点2-3, server: 172.64.99.185, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
+  - {name: 节点2-4, server: 172.64.99.185, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
+  - {name: 节点2-5, server: 172.64.99.185, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
+  - {name: 节点2-6, server: 172.64.99.185, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
+  - {name: 节点2-7, server: 172.64.99.185, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
+  - {name: 节点2-8, server: 172.64.99.185, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
+  - {name: 节点2-9, server: 172.64.99.185, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.shkqh0be.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.shkqh0be.workers.dev}}}
+  - {name: 节点3-1, server: 104.16.29.137, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
+  - {name: 节点3-2, server: 104.16.29.137, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
+  - {name: 节点3-3, server: 104.16.29.137, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
+  - {name: 节点3-4, server: 104.16.29.137, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
+  - {name: 节点3-5, server: 104.16.29.137, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
+  - {name: 节点3-6, server: 104.16.29.137, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
+  - {name: 节点3-7, server: 104.16.29.137, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
+  - {name: 节点3-8, server: 104.16.29.137, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
+  - {name: 节点3-9, server: 104.16.29.137, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.shkqh0be.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.shkqh0be.workers.dev}}}
+  - {name: 节点4-1, server: 172.64.69.95, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: hello.96xckkzx.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hello.96xckkzx.workers.dev}}}
+  - {name: 节点4-2, server: 172.64.69.95, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.9bn6j-2d.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.9bn6j-2d.workers.dev}}}
+  - {name: 节点4-3, server: 172.64.69.95, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: b.8moms7of.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b.8moms7of.workers.dev}}}
+  - {name: 节点4-4, server: 172.64.69.95, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: c.lkzb-0t0.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: c.lkzb-0t0.workers.dev}}}
+  - {name: 节点4-5, server: 172.64.69.95, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: test.ltang4981.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: test.ltang4981.workers.dev}}}
+  - {name: 节点4-6, server: 172.64.69.95, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: bad.jiushinali4.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bad.jiushinali4.workers.dev}}}
+  - {name: 节点4-7, server: 172.64.69.95, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: goggo.limaolimaolimaomao.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: goggo.limaolimaolimaomao.workers.dev}}}
+  - {name: 节点4-8, server: 172.64.69.95, port: 80, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: some1.shufulayikuaifale.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: some1.shufulayikuaifale.workers.dev}}}
+  - {name: 节点4-9, server: 172.64.69.95, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: a.shkqh0be.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.shkqh0be.workers.dev}}}
+  
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - 🚀 手动切换
-      - 节点1
-      - 节点2
-      - 节点3
-      - 节点4
-      - 节点5
-      - 节点6
-      - 节点7
-      - 节点8
-      - 节点9
-      - 节点10
-      - 节点11
-      - 节点12
-      - 节点1-1
-      - 节点1-2
-      - 节点1-3
-      - 节点1-4
-      - 节点1-5
-      - 节点1-6
-      - 节点1-7
-      - 节点1-8
-      - 节点2-1
-      - 节点2-2
-      - 节点2-3
-      - 节点2-4
-      - 节点2-5
-      - 节点2-6
-      - 节点2-7
-      - 节点2-8
-      - 节点3-1
-      - 节点3-2
-      - 节点3-3
-      - 节点3-4
-      - 节点3-5
-      - 节点3-6
-      - 节点3-7
-      - 节点3-8
-      - 节点4-1
-      - 节点4-2
-      - 节点4-3
-      - 节点4-4
-      - 节点4-5
-      - 节点4-6
-      - 节点4-7
-      - 节点4-8
   - name: 🚀 手动切换
     type: select
     proxies:
@@ -124,38 +84,6 @@ proxy-groups:
       - 节点10
       - 节点11
       - 节点12
-      - 节点1-1
-      - 节点1-2
-      - 节点1-3
-      - 节点1-4
-      - 节点1-5
-      - 节点1-6
-      - 节点1-7
-      - 节点1-8
-      - 节点2-1
-      - 节点2-2
-      - 节点2-3
-      - 节点2-4
-      - 节点2-5
-      - 节点2-6
-      - 节点2-7
-      - 节点2-8
-      - 节点3-1
-      - 节点3-2
-      - 节点3-3
-      - 节点3-4
-      - 节点3-5
-      - 节点3-6
-      - 节点3-7
-      - 节点3-8
-      - 节点4-1
-      - 节点4-2
-      - 节点4-3
-      - 节点4-4
-      - 节点4-5
-      - 节点4-6
-      - 节点4-7
-      - 节点4-8
 rules:
   - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
